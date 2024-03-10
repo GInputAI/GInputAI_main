@@ -1,2 +1,5 @@
-from . import Record
-from .Input import Record as RecPlayer
+from . import Record as RecordHooks
+from .Input import Record, Sleep
+from .Input import on_press, on_release, click_press, click_release
+
+

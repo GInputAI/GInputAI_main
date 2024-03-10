@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="ico">
+    <file>assets/Run.png</file>
+    <file>assets/folder.ico</file>
+    <file>assets/mouse_blood.ico</file>
+    <file>assets/RunRepeat.ico</file>
+  </qresource>
+</RCC>

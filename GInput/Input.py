@@ -1,31 +1,37 @@
-import time
 from pynput.mouse import Controller as ControllerM
 from pynput.keyboard import Controller as ControllerK
 import pickle
 from copy import deepcopy
+from time import perf_counter, sleep
 
 mouse = ControllerM()
 keyboard = ControllerK()
 
 
+def Sleep(s_time):
+    __start = perf_counter()
+    sleep(s_time - 0.1) if s_time > 0.2 else None
+    while perf_counter() - __start < s_time:
+        pass
+
 def click_press(Button, Delay):
-    time.sleep(Delay)
+    Sleep(Delay)
     mouse.press(Button)
 
 def click_release(Button, Delay):
-    time.sleep(Delay)
+    Sleep(Delay)
     mouse.release(Button)
 
 def on_move(x, y, Delay):
-    time.sleep(Delay)
+    Sleep(Delay)
     mouse.position = (x, y)
 
 def on_press(ButtonK, Delay):
-    time.sleep(Delay)
+    Sleep(Delay)
     keyboard.press(ButtonK)
 
 def on_release(ButtonK, Delay):
-    time.sleep(Delay)
+    Sleep(Delay)
     keyboard.release(ButtonK)
 
 
