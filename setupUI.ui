@@ -362,7 +362,7 @@ QPushButton {
              </widget>
             </item>
             <item>
-             <widget class="QTextBrowser" name="textBrowser">
+             <widget class="QTextBrowser" name="ScriptEditor">
               <property name="sizePolicy">
                <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
                 <horstretch>2</horstretch>

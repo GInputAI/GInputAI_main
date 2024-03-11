@@ -1,4 +1,4 @@
-#Конвертировать UI в .py файл
-pyside6-uic setupUI.ui -o src/GUI/setupUI.py
+#Конвертировать UI в .py файл  ------- (#pyside6-uic setupUI.ui -o src/GUI/setupUI.py)
+pyuic6 -x setupUI.ui -o src/GUI/setupUI.py
 #Конвертировать файл ресурсов .qrc в .py файл
 pyside6-rcc assets.qrc -o src/GUI/assets_rc.py
