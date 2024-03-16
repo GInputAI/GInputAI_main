@@ -20,7 +20,7 @@
    <string>GInput AI</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="files_ico.qrc">
+   <iconset>
     <normaloff>:/ico/assets/mouse_icon-icons.com_60636.ico</normaloff>:/ico/assets/mouse_icon-icons.com_60636.ico</iconset>
   </property>
   <property name="styleSheet">
@@ -212,7 +212,7 @@ QPushButton:pressed {
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="files_ico.qrc">
+                 <iconset>
                   <normaloff>:/ico/assets/folder_open_FILL0_wght400_GRAD0_opsz24.ico</normaloff>:/ico/assets/folder_open_FILL0_wght400_GRAD0_opsz24.ico</iconset>
                 </property>
                </widget>
@@ -423,7 +423,7 @@ QPushButton:pressed {
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>524</width>
+               <width>577</width>
                <height>91</height>
               </rect>
              </property>
@@ -789,68 +789,6 @@ QPushButton:pressed {
      <attribute name="title">
       <string>AI Data/Learn</string>
      </attribute>
-     <widget class="QWidget" name="verticalLayoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>90</x>
-        <y>100</y>
-        <width>541</width>
-        <height>201</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="TerminalLayout">
-       <item>
-        <widget class="QFrame" name="horizontalFrame_2">
-         <property name="enabled">
-          <bool>true</bool>
-         </property>
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>1</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>34</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(43, 45, 48);</string>
-         </property>
-         <layout class="QHBoxLayout" name="TerminalFrame"/>
-        </widget>
-       </item>
-       <item>
-        <widget class="QTextBrowser" name="TerminalText">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>806</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QTextBrowser {
-       border: none;
-   }</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
     </widget>
     <widget class="QWidget" name="tab3">
      <attribute name="title">
@@ -866,7 +804,7 @@ QPushButton:pressed {
   </widget>
  </widget>
  <resources>
-  <include location="files_ico.qrc"/>
+  <include location="assets.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -275,7 +275,7 @@ font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
              <number>1</number>
             </property>
             <item>
-             <widget class="QFrame" name="ScriptEditorBar_2">
+             <widget class="QFrame" name="ScriptEditorTop">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
                 <horstretch>0</horstretch>
@@ -378,7 +378,7 @@ QPushButton {
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="label_2">
+             <widget class="QLabel" name="ScriptEditorBottom">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
                 <horstretch>0</horstretch>
